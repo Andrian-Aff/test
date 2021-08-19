@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* стили для шапки */
+
+header {
+    width: 1280px;
+    padding: 50px; 
+}
+
+header #logo {
+    position: absolute;
+    width: 256px;
+    height: 49.65px;
+    left: 50px;
+    top: 25px;
+    background: url(newlogo.png);
+}
+
+header #search input {
+    position: absolute;
+    width: 600px;
+    left: 350px;
+    top: 25px;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 3px;
+
+}
+
+header #favorites {
+    position: absolute;
+    width: 132px;
+    height: 25px;
+    left: 970px;
+    top: 37px;
+}
+
+header #favorites a span.favorite-icon {
+    width: 22px;
+    height: 19px;
+    display: block;
+    background: url(./svg/heart.svg) no-repeat;
+    margin: 0 9px 0 0;
+}
+
+header #basket {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1132px;
+    top: 35px;
+    margin: 0 -20px 0 10px;
+}
+
+header #basket a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #000;
+    font-size: 14px;
+    padding: 9px 20px 9px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+header #basket a span.basket-icon {
+    width: 27px;
+    height: 23px;
+    display: block;
+    background: url(./svg/shopping-cart.svg) no-repeat;
+    position: relative;
+}
+
+cart-name-hide .basket-text {
+    display: none;
+}
+
+.basket-min-text {
+    display: block;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.36);
+    }
+
+
+
+
+.mas-wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #000;
+}
+
+.mas-header-center {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mas-flex-header-center {
+    width: 1200px;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 25px;
+    word-wrap: break-word;
+}
+
+.mas-logo a {
+    background: url(./logo/logo.png) no-repeat;
+    width: 117px;
+    height: 26px;
+    display: block;
+    background-size: contain;
+}
+
+.mas-flex-header-rightside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mas-flex-header-rightside {
+    width: 80%;
+}
+
+.mas-flex-header-rightside-search {
+    width: 80%;
+    position: relative;
+}
+
+.mas-flex-header-rightside-search-input {
+    width: 100%;
+padding: 15px 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+border: 1px solid rgba(0, 0, 0, 0.10);
+border-radius: 3px;
+outline: none;
+font-size: 14px;
+}
+
+input {
+    line-height: normal;
+}
+
+.mas-flex-header-rightside-favorites {
+    margin: 0 0 0 20px;
+    width: 166.203125px;
+}
+
+.mas-flex-header-rightside-basket {
+    margin: 0 -20px 0 10px;
+    width: 67px;
+}
+
+
+
